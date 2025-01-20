@@ -30,7 +30,7 @@
 .card {
   position: relative;
   width: 100%;
-  padding-top: 100%; /* Aspect ratio 1:1 */
+  padding-top: 100%;
 }
 
 .card .front,
@@ -159,34 +159,6 @@
   font-size: 1.5em;
   font-weight: 600;
   min-width: 30px;
-}
-
-@media (max-width: 768px) {
-  .playground {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 15px;
-    padding: 15px;
-  }
-
-  .card .front {
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 480px) {
-  .memory-game h1 {
-    font-size: 2rem;
-  }
-
-  .playground {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-    padding: 10px;
-  }
-
-  .card .front {
-    font-size: 1.5em;
-  }
 }
 
 .card {
